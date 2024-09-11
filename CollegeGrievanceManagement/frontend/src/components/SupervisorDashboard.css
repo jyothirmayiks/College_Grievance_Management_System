@@ -52,7 +52,7 @@ h2 {
   font-family:'Poppins', sans-serif;
 }
 
-/* Grievances styling */
+
 .grievances-list1 {
   margin-bottom: 40px;
   margin-left: 90px;
@@ -93,7 +93,7 @@ h2 {
   color: #ea4326;
 }
 
-/* Styling for the user list container */
+
 .users-list {
   padding: 20px;
   margin-left: -1160px;
@@ -101,7 +101,7 @@ h2 {
   width:300px;
 }
 
-/* User item container */
+
 .user-item {
   display: flex;
   justify-content: space-between;
@@ -112,21 +112,21 @@ h2 {
   border-radius: 5px;
 }
 
-/* User information section */
+
 .user-info {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-/* Styling for the username */
+
 .username {
   margin: 0;
   font-weight: bold;
   margin-right: 10px;
 }
 
-/* Role container with role and icons */
+
 .role-container {
   display: flex;
   align-items: center;
@@ -134,20 +134,19 @@ h2 {
   margin-top: 5px;
 }
 
-/* Role styling */
+
 .role {
   font-size: 14px;
   color: #555;
   margin-right: 10px;
 }
 
-/* Container for the edit and delete icons */
+
 .icon-buttons {
   display: flex;
-  gap: 8px; /* Adds spacing between icons */
-}
+  gap: 8px; }
 
-/* Styling for the buttons (edit and delete) */
+
 .edit-button,
 .delete-button {
   background: none;
@@ -160,15 +159,32 @@ h2 {
   justify-content: center;
 }
 
-/* Making the icons the same size and color */
 .edit-button svg,
 .delete-button svg {
   width: 20px;
   height: 20px;
-  color: #007bff; /* Matches the color */
+  color: #007bff; 
 }
 
-/* Style for the role select dropdown */
+.edit-button:hover,
+.delete-button:hover{
+  background-color: #100f0f;
+  color: #ffffff;
+}
+
+.delete-button1 {
+  width: auto;          
+  display: inline-block;   
+  padding:5px 20px 10px;       
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-button1:hover{
+  background-color: #0c0b0b;
+  color: #ffffff;
+}
+
 .role-select {
   margin-top: 5px;
 }

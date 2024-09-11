@@ -61,6 +61,7 @@ public class UserController {
             userService.deleteUser(id);
             return ResponseEntity.ok().build();
         } catch (Exception e) {
+            System.out.println("Error deleting user: " + e.getMessage());
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }

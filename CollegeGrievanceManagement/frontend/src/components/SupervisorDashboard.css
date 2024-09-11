@@ -144,9 +144,16 @@ h2 {
 
 .icon-buttons {
   display: flex;
+<<<<<<< HEAD
   gap: 8px; }
 
 
+=======
+  gap: 8px;
+}
+
+
+>>>>>>> ad293662aca7d2471b51950b6c1e66cc466c1d00
 .edit-button,
 .delete-button {
   background: none;
@@ -159,10 +166,15 @@ h2 {
   justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad293662aca7d2471b51950b6c1e66cc466c1d00
 .edit-button svg,
 .delete-button svg {
   width: 20px;
   height: 20px;
+<<<<<<< HEAD
   color: #007bff; 
 }
 
@@ -185,6 +197,12 @@ h2 {
   color: #ffffff;
 }
 
+=======
+  color: #007bff;
+}
+
+
+>>>>>>> ad293662aca7d2471b51950b6c1e66cc466c1d00
 .role-select {
   margin-top: 5px;
 }
